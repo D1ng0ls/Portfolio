@@ -326,7 +326,7 @@ a {
     }
 }
 
-@media screen and (min-width: 767px) and (max-width: 1023px){
+@media screen and (max-width: 1023px){
     .about, .container-portfolio {
         width: 98%;
     }
@@ -338,8 +338,40 @@ a {
     }
 }
 
-@media screen and (max-width: 767px) {
-    body {
-        background-color: yellow;
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .about, .preview-site, .container-text {
+        width: 100%;
+    }
+    .photo-about {
+        display: none;
+    }
+    .text-about {
+        margin: 0 auto;
+        width: 98%;
+    }
+    .text-about h1 {
+        text-align: center;
+    }
+    .contact {
+        width: 98%;
+    }
+    .container-socialmedia, .site {
+        flex-direction: column;
+    }
+    .text-site, .languages {
+        margin: 0;
+    }
+    .preview-site img, .text-site button {
+        box-shadow: none;
+    }
+    .text-site button {
+        margin: auto 10px;
+    }
+    .languages {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .navbar-items li a {
+        padding: 0 10px;
     }
 }
