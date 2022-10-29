@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head id="jose">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css">
+        <script>
+            var num = Math.floor(Math.random() * 4);
+            if (num==0) {
+                document.getElementById('jose').innerHTML = document.getElementById('jose').innerHTML + '<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%22-.1em%22 y=%22.9em%22 font-size=%2280%22>🤓</text></svg>">'
+            } else if (num==1) {
+                document.getElementById('jose').innerHTML = document.getElementById('jose').innerHTML + '<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%22-.1em%22 y=%22.9em%22 font-size=%2280%22>😎</text></svg>">'
+            } else if (num==2) {
+                document.getElementById('jose').innerHTML = document.getElementById('jose').innerHTML + '<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%22-.1em%22 y=%22.9em%22 font-size=%2280%22>👍</text></svg>">'
+            } else if (num==3) {
+                document.getElementById('jose').innerHTML = document.getElementById('jose').innerHTML + '<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%22-.1em%22 y=%22.9em%22 font-size=%2280%22>🚕</text></svg>">'
+            } else {
+                document.getElementById('jose').innerHTML = document.getElementById('jose').innerHTML + '<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%22-.1em%22 y=%22.9em%22 font-size=%2280%22>🎉</text></svg>">'
+            }
+        </script>
+        <title>Dingols</title>
+    </head>
+    <body>
+        
+        <header class="header">
+            <nav class="navbar">
+                <div class="navbar-container">
+                    <div class="navbar-photo">
+                        <img src="media/eu.png" alt="Eduardo Santos Photo" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank')">
+                    </div>
+                    <div class="navbar-items">
+                        <ul>
+                            <li><a href="#about"><h3>About</h3></a></li>
+                            <li><a href="#portfolio"><h3>Portfolio</h3></a></li>
+                            <li><a href="#contact"><h3>Contact</h3></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="container-conteudo">
+                <div class="about" id="about">
+                    <div class="photo-about">
+                        <img src="media/eu2.png" alt="Eduardo Santos Photo">
+                    </div>
+                    <div class="text-about">
+                        <h1>Eduardo Santos</h1>
+                        <h2>I'm a Web <span id="dev">Developer</span></h2>
+                        <ul>
+                            <li><span style="color: #1d87dd; margin-right: 7px;">Age:</span> 17y</li>
+                            <li><span style="color: #1d87dd; margin-right: 7px;">Role:</span> Student</li>
+                            <li><span style="color: #1d87dd; margin-right: 7px;">Company:</span> <a target="_blank" href="https://bri.ifsp.edu.br/">IFSP-Birigui</a></li>
+                            <li><span style="color: #1d87dd; margin-right: 7px;">Location:</span> <a target="_blank" href="https://goo.gl/maps/bvQ5UpjFRVU2H3yx5">Birigui-SP, Brasil</a></li>
+                            <li><span style="color: #1d87dd; margin-right: 7px;">Languages:</span> 
+                                <ol>
+                                    <li style="margin: 10px 0 0 0;">Portuguese - Fluent</li>
+                                    <li style="margin: 0;">English - Low/medium</li>
+                                </ol>
+                            </li>
+                            <li><span style="color: #1d87dd; margin-right: 7px;">Programming languages:</span> 
+                                <img src="media/html5.svg" alt="HTML5" title="HTML5">
+                                <img src="media/css3.svg" alt="CSS3" title="CSS3">
+                                <img src="media/javascript.svg" alt="JavaScript" title="JavaScript">
+                                <img src="media/php.svg" alt="PHP" title="PHP">
+                                <img src="media/mysql.svg" alt="MySQL" title="MySQL">
+                                <img src="media/java.svg" alt="Java" title="Java">
+                                <img src="media/c++.svg" alt="C++" title="C++">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio" id="portfolio">
+                    <div class="container-portfolio">
+                        <div class="title">
+                            <h1>Portfolio</h1>
+                        </div>
+                        <div class="site">
+                            <div class="preview-site">
+                                <img src="media/cursosfodas.png" alt="asfg0asu9">
+                            </div>
+                            <div class="container-text">
+                                <div class="text-site">
+                                    <h3>CursosFodas</h3>
+                                    <p>Platform for free programming courses and the like, which I find around</p>
+                                    <a target="_blank" href="https://github.com/D1ng0ls/CursosFodas"><button><span>View Source</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                    <a target="_blank" href="https://d1ng0ls.github.io/CursosFodas/"><button><span>Try it Live</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                </div>
+                                <div class="languages">
+                                    <img src="media/html5.svg" alt="HTML5" title="HTML5">
+                                    <img src="media/css3.svg" alt="CSS3" title="CSS3">
+                                    <img src="media/javascript.svg" alt="JavaScript" title="JavaScript">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="site">
+                            <div class="preview-site">
+                                <img src="media/blog.png" alt="asfg0asu9">
+                            </div>
+                            <div class="container-text">
+                                <div class="text-site">
+                                    <h3>Blog</h3>
+                                    <p>Just a blog</p>
+                                    <a target="_blank" href="https://github.com/D1ng0ls/blog"><button><span>View Source</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                </div>
+                                <div class="languages">
+                                    <img src="media/html5.svg" alt="HTML5" title="HTML5">
+                                    <img src="media/css3.svg" alt="CSS3" title="CSS3">
+                                    <img src="media/javascript.svg" alt="JavaScript" title="JavaScript">
+                                    <img src="media/php.svg" alt="PHP" title="PHP">
+                                    <img src="media/mysql.svg" alt="MySQL" title="MySQL">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="site">
+                            <div class="preview-site">
+                                <img src="media/email.png" alt="asfg0asu9">
+                            </div>
+                            <div class="container-text">
+                                <div class="text-site">
+                                    <h3>Email</h3>
+                                    <p>Automatic email writer (only in portuguese)</p>
+                                    <a target="_blank" href="https://github.com/D1ng0ls/email"><button><span>View Source</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                    <a target="_blank" href="https://d1ng0ls.github.io/email/"><button><span>Try it Live</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                </div>
+                                <div class="languages">
+                                    <img src="media/html5.svg" alt="HTML5" title="HTML5">
+                                    <img src="media/javascript.svg" alt="JavaScript" title="JavaScript">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="site">
+                            <div class="preview-site">
+                                <img src="media/livros.png" alt="asfg0asu9">
+                            </div>
+                            <div class="container-text">
+                                <div class="text-site">
+                                    <h3>Livros</h3>
+                                    <p>Webpage from my friend :D</p>
+                                    <a target="_blank" href="https://github.com/D1ng0ls/Livros"><button><span>View Source</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                    <a target="_blank" href="https://d1ng0ls.github.io/Livros/"><button><span>Try it Live</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                </div>
+                                <div class="languages">
+                                    <img src="media/html5.svg" alt="HTML5" title="HTML5">
+                                    <img src="media/css3.svg" alt="CSS3" title="CSS3">
+                                    <img src="media/javascript.svg" alt="JavaScript" title="JavaScript">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="site">
+                            <div class="preview-site">
+                                <img src="media/projeto2.png" alt="asfg0asu9">
+                            </div>
+                            <div class="container-text">
+                                <div class="text-site">
+                                    <h3>Projeto 2</h3>
+                                    <p>Change color page with a color picker</p>
+                                    <a target="_blank" href="https://github.com/D1ng0ls/projeto2"><button><span>View Source</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                    <a target="_blank" href="https://d1ng0ls.github.io/projeto2/"><button><span>Try it Live</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                </div>
+                                <div class="languages">
+                                    <img src="media/html5.svg" alt="HTML5" title="HTML5">
+                                    <img src="media/css3.svg" alt="CSS3" title="CSS3">
+                                    <img src="media/javascript.svg" alt="JavaScript" title="JavaScript">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="site">
+                            <div class="preview-site">
+                                <img src="media/tests.png" alt="asfg0asu9">
+                            </div>
+                            <div class="container-text">
+                                <div class="text-site">
+                                    <h3>Tests</h3>
+                                    <p>⚠️ Test Zone ⚠️<br>Test 1: A simple color picker, where I test some javascript functions;<br>Test 2: A very simple one page "CSS editor".</p>
+                                    <a target="_blank" href="https://github.com/D1ng0ls/Tests"><button><span>View Source</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                    <a target="_blank" href="https://d1ng0ls.github.io/Tests/"><button><span>Try it Live</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                </div>
+                                <div class="languages">
+                                    <img src="media/html5.svg" alt="HTML5" title="HTML5">
+                                    <img src="media/css3.svg" alt="CSS3" title="CSS3">
+                                    <img src="media/javascript.svg" alt="JavaScript" title="JavaScript">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="site">
+                            <div class="preview-site">
+                                <img src="media/certificard.png" alt="asfg0asu9">
+                            </div>
+                            <div class="container-text">                            
+                                <div class="text-site">
+                                    <h3>Certificard</h3>
+                                    <p>A small portfolio of a programming course</p>
+                                    <a target="_blank" href="https://github.com/D1ng0ls/certificard"><button><span>View Source</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                    <a target="_blank" href="https://d1ng0ls.github.io/certificard/"><button><span>Try it Live</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                </div>
+                                <div class="languages">
+                                    <img src="media/html5.svg" alt="HTML5" title="HTML5">
+                                    <img src="media/css3.svg" alt="CSS3" title="CSS3">
+                                    <img src="media/javascript.svg" alt="JavaScript" title="JavaScript">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="site">
+                            <div class="preview-site">
+                                <img src="media/covid19.png" alt="asfg0asu9">
+                            </div>
+                            <div class="container-text">
+                                <div class="text-site">
+                                    <h3>Covid19</h3>
+                                    <p>Test of COVID-19 online with changing background color of the site: D</p>
+                                    <a target="_blank" href="https://github.com/D1ng0ls/covid19"><button><span>View Source</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                    <a target="_blank" href="https://d1ng0ls.github.io/covid19/"><button><span>Try it Live</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                </div>
+                                <div class="languages">
+                                    <img src="media/html5.svg" alt="HTML5" title="HTML5">
+                                    <img src="media/css3.svg" alt="CSS3" title="CSS3">
+                                    <img src="media/javascript.svg" alt="JavaScript" title="JavaScript">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="site">
+                            <div class="preview-site">
+                                <img src="media/coquero.png" alt="asfg0asu9">
+                            </div>
+                            <div class="container-text">
+                                <div class="text-site">
+                                    <h3>Coquero</h3>
+                                    <p>This is a school project of a travel site</p>
+                                    <a target="_blank" href="https://github.com/D1ng0ls/coquero"><button><span>View Source</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                    <a target="_blank" href="https://d1ng0ls.github.io/coquero/"><button><span>Try it Live</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                </div>
+                                <div class="languages">
+                                    <img src="media/html5.svg" alt="HTML5" title="HTML5">
+                                    <img src="media/css3.svg" alt="CSS3" title="CSS3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="site">
+                            <div class="preview-site">
+                                <img src="media/bocaaberta.png" alt="asfg0asu9">
+                            </div>
+                            <div class="container-text">
+                                <div class="text-site">
+                                    <h3>BocaAberta</h3>
+                                    <p>This is a school project of a news site</p>
+                                    <a target="_blank" href="https://github.com/D1ng0ls/BocaAberta"><button><span>View Source</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                    <a target="_blank" href="https://d1ng0ls.github.io/BocaAberta/"><button><span>Try it Live</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                </div>
+                                <div class="languages">
+                                    <img src="media/html5.svg" alt="HTML5" title="HTML5">
+                                    <img src="media/css3.svg" alt="CSS3" title="CSS3">
+                                    <img src="media/javascript.svg" alt="JavaScript" title="JavaScript">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="site">
+                            <div class="preview-site">
+                                <img src="media/baixados.png" alt="asfg0asu9">
+                            </div>
+                            <div class="container-text">
+                                <div class="text-site">
+                                    <h3>Baixados</h3>
+                                    <p>Here we can upload files and download them again or a way to send a file to a friend remotely</p>
+                                    <a target="_blank" href="https://github.com/D1ng0ls/baixados"><button><span>View Source</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                </div>
+                                <div class="languages">
+                                    <img src="media/html5.svg" alt="HTML5" title="HTML5">
+                                    <img src="media/css3.svg" alt="CSS3" title="CSS3">
+                                    <img src="media/javascript.svg" alt="JavaScript" title="JavaScript">
+                                    <img src="media/php.svg" alt="PHP" title="PHP">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="site">
+                            <div class="preview-site">
+                                <img src="media/projeto.png" alt="asfg0asu9">
+                            </div>
+                            <div class="container-text">
+                                <div class="text-site">
+                                    <h3>Projeto</h3>
+                                    <p>Mass, pressure and distance converters</p>
+                                    <a target="_blank" href="https://github.com/D1ng0ls/projeto"><button><span>View Source</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                    <a target="_blank" href="https://d1ng0ls.github.io/projeto/"><button><span>Try it Live</span> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M13.2 3.6a1.2 1.2 0 1 0 0 2.4h3.103l-7.551 7.552a1.2 1.2 0 1 0 1.696 1.696L18 7.697V10.8a1.2 1.2 0 1 0 2.4 0v-6a1.2 1.2 0 0 0-1.2-1.2h-6Z"/>
+                                        <path d="M6 6a2.4 2.4 0 0 0-2.4 2.4V18A2.4 2.4 0 0 0 6 20.4h9.6A2.4 2.4 0 0 0 18 18v-3.6a1.2 1.2 0 1 0-2.4 0V18H6V8.4h3.6a1.2 1.2 0 1 0 0-2.4H6Z"/>
+                                    </svg></button></a>
+                                </div>
+                                <div class="languages">
+                                    <img src="media/html5.svg" alt="HTML5" title="HTML5">
+                                    <img src="media/css3.svg" alt="CSS3" title="CSS3">
+                                    <img src="media/javascript.svg" alt="JavaScript" title="JavaScript">
+                                    <img src="media/php.svg" alt="PHP" title="PHP">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="text-contact" id="contact">
+                        <h1>Contact Me</h1>
+                        <p style="color: #1d87dd; font-size: 18px;">Email → <a href="mailto:4b4c4t3666@gmail.com" style="color: #1d87dd;">4b4c4t3666@gmail.com</a></p>
+                        <h3>or find me on:</h3>
+                        <div class="container-socialmedia">
+                            <p><a target="_blank" href="https://github.com/D1ng0ls"><svg fill="currentColor" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M44,24c0,8.96-5.88,16.54-14,19.08V38c0-1.71-0.72-3.24-1.86-4.34c5.24-0.95,7.86-4,7.86-9.66c0-2.45-0.5-4.39-1.48-5.9 c0.44-1.71,0.7-4.14-0.52-6.1c-2.36,0-4.01,1.39-4.98,2.53C27.57,14.18,25.9,14,24,14c-1.8,0-3.46,0.2-4.94,0.61 C18.1,13.46,16.42,12,14,12c-1.42,2.28-0.84,4.74-0.3,6.12C12.62,19.63,12,21.57,12,24c0,5.66,2.62,8.71,7.86,9.66 c-0.67,0.65-1.19,1.44-1.51,2.34H16c-1.44,0-2-0.64-2.77-1.68c-0.77-1.04-1.6-1.74-2.59-2.03c-0.53-0.06-0.89,0.37-0.42,0.75 c1.57,1.13,1.68,2.98,2.31,4.19C13.1,38.32,14.28,39,15.61,39H18v4.08C9.88,40.54,4,32.96,4,24C4,12.95,12.95,4,24,4 S44,12.95,44,24z"/></svg>Github</a></p>
+                            <p><a target="_blank" href="https://instagram.com/d1ng0ls"><svg fill="currentColor" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M 16.5 5 C 10.159 5 5 10.159 5 16.5 L 5 31.5 C 5 37.841 10.159 43 16.5 43 L 31.5 43 C 37.841 43 43 37.841 43 31.5 L 43 16.5 C 43 10.159 37.841 5 31.5 5 L 16.5 5 z M 34 12 C 35.105 12 36 12.895 36 14 C 36 15.104 35.105 16 34 16 C 32.895 16 32 15.104 32 14 C 32 12.895 32.895 12 34 12 z M 24 14 C 29.514 14 34 18.486 34 24 C 34 29.514 29.514 34 24 34 C 18.486 34 14 29.514 14 24 C 14 18.486 18.486 14 24 14 z M 24 17 A 7 7 0 1 0 24 31 A 7 7 0 1 0 24 17 z"/></svg>Instagram</a></p>
+                            <p><a target="_blank" href="https://twitter.com/d1ng0ls"><svg fill="currentColor" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M44.719,10.305C44.424,10,43.97,9.913,43.583,10.091l-0.164,0.075c-0.139,0.064-0.278,0.128-0.418,0.191	c0.407-0.649,0.73-1.343,0.953-2.061c0.124-0.396-0.011-0.829-0.339-1.085c-0.328-0.256-0.78-0.283-1.135-0.066	c-1.141,0.693-2.237,1.192-3.37,1.54C37.4,7.026,35.071,6,32.5,6c-5.247,0-9.5,4.253-9.5,9.5c0,0.005,0,0.203,0,0.5l-0.999-0.08	c-9.723-1.15-12.491-7.69-12.606-7.972c-0.186-0.47-0.596-0.813-1.091-0.916C7.81,6.927,7.297,7.082,6.939,7.439	C6.741,7.638,5,9.48,5,13c0,2.508,1.118,4.542,2.565,6.124c-0.674-0.411-1.067-0.744-1.077-0.753	c-0.461-0.402-1.121-0.486-1.669-0.208c-0.546,0.279-0.868,0.862-0.813,1.473c0.019,0.211,0.445,4.213,5.068,7.235l-0.843,0.153	c-0.511,0.093-0.938,0.444-1.128,0.928C6.914,28.437,6.988,28.984,7.3,29.4c0.105,0.141,2.058,2.68,6.299,4.14	C11.334,34.295,8.222,35,4.5,35c-0.588,0-1.123,0.344-1.366,0.88c-0.244,0.536-0.151,1.165,0.237,1.607	C3.532,37.672,7.435,42,17.5,42C34.213,42,42,26.485,42,16v-0.5c0-0.148-0.016-0.293-0.022-0.439	c2.092-2.022,2.879-3.539,2.917-3.614C45.084,11.067,45.014,10.609,44.719,10.305z"/></svg>Twitter</a></p>
+                            <p><a target="_blank" href="https://youtube.com/channel/UC0QHlFhQwxf-ZhrMa28wPiw"><svg fill="currentColor" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M 23.857422 8.5 C 17.504717 8.5 11.602344 8.9526234 8.234375 9.65625 A 1.50015 1.50015 0 0 0 8.2128906 9.6621094 C 5.6754768 10.230693 3.2861897 12.048234 2.7832031 14.894531 A 1.50015 1.50015 0 0 0 2.78125 14.90625 C 2.394836 17.200265 2 20.190694 2 24.5 C 2 28.801151 2.3961903 31.712324 2.8847656 34.126953 C 3.4000756 36.889296 5.7342165 38.761817 8.3105469 39.337891 A 1.50015 1.50015 0 0 0 8.3476562 39.347656 C 11.86271 40.040284 17.598467 40.5 23.951172 40.5 C 30.303877 40.5 36.042686 40.04028 39.558594 39.347656 A 1.50015 1.50015 0 0 0 39.595703 39.337891 C 42.133117 38.769306 44.522404 36.951766 45.025391 34.105469 A 1.50015 1.50015 0 0 0 45.029297 34.083984 C 45.409789 31.743169 45.902812 28.755621 46 24.439453 A 1.50015 1.50015 0 0 0 46 24.40625 C 46 20.087697 45.50571 17.078675 45.023438 14.695312 C 44.512192 11.927074 42.175378 10.049478 39.595703 9.4726562 A 1.50015 1.50015 0 0 0 39.476562 9.4511719 C 36.0464 8.9689502 30.211115 8.5 23.857422 8.5 z M 20.15625 17.001953 C 20.526656 16.994297 20.909531 17.081906 21.269531 17.285156 L 29.873047 22.146484 C 31.324047 22.966484 31.324047 25.035469 29.873047 25.855469 L 21.269531 30.716797 C 19.830531 31.528797 18.037109 30.500328 18.037109 28.861328 L 18.037109 19.138672 C 18.037109 17.909422 19.045031 17.024922 20.15625 17.001953 z"/></svg>Youtube</a></p>
+                            <p><a target="_blank" href="https://www.twitch.tv/d1ng0ls"><svg fill="currentColor" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M 15.189453 6 C 13.33091 6 11.593951 6.9426764 10.580078 8.5019531 L 5.8417969 15.78125 L 5.9003906 15.701172 C 5.3170163 16.479504 5 17.426275 5 18.400391 L 5 36.5 C 5 38.967501 7.0324991 41 9.5 41 L 15 41 L 15 44.5 A 1.50015 1.50015 0 0 0 16.5 46 L 17.671875 46 C 18.599988 46 19.490527 45.630566 20.146484 44.974609 L 24.121094 41 L 30.173828 41 C 31.441313 41 32.649666 40.463511 33.501953 39.527344 L 41.050781 31.224609 L 41.048828 31.224609 C 42.30393 29.844549 43 28.045092 43 26.179688 L 43 10.5 C 43 8.0324991 40.967501 6 38.5 6 L 15.189453 6 z M 15.189453 9 L 23 9 L 38.5 9 C 39.346499 9 40 9.6535009 40 10.5 L 40 26.179688 C 40 27.300283 39.583024 28.379091 38.830078 29.207031 L 38.371094 29.710938 L 38.400391 29.650391 L 35.662109 32.681641 C 34.903109 33.521641 33.825359 34 32.693359 34 L 24.5 34 L 19 39 L 19 34 L 15 34 C 13.9 34 13 33.1 13 32 L 13 11 C 13 10.459499 13.216346 9.9711738 13.564453 9.6113281 C 14.011909 9.2264864 14.582744 9 15.189453 9 z M 23.476562 14.978516 A 1.50015 1.50015 0 0 0 22 16.5 L 22 24.5 A 1.50015 1.50015 0 1 0 25 24.5 L 25 16.5 A 1.50015 1.50015 0 0 0 23.476562 14.978516 z M 31.476562 14.978516 A 1.50015 1.50015 0 0 0 30 16.5 L 30 24.5 A 1.50015 1.50015 0 1 0 33 24.5 L 33 16.5 A 1.50015 1.50015 0 0 0 31.476562 14.978516 z"/></svg>Twitch</a></p>
+                            <p><a target="_blank" href="https://steamcommunity.com/id/d1ng0ls"><svg fill="currentColor" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M17.5,27c-0.9,0-1.74,0.27-2.45,0.73l3.43,1.47c1.27,0.55,1.86,2.02,1.32,3.28C19.39,33.43,18.47,34,17.5,34 c-0.33,0-0.66-0.06-0.98-0.2l-3.44-1.47C13.47,34.41,15.3,36,17.5,36c2.48,0,4.5-2.02,4.5-4.5C22,29.02,19.98,27,17.5,27z M30,13 c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5S32.76,13,30,13z M30,21c-1.66,0-3-1.34-3-3c0-1.66,1.34-3,3-3s3,1.34,3,3 C33,19.66,31.66,21,30,21z M24,4C13.28,4,4.54,12.42,4.03,23.01l8.95,3.83C14.15,25.7,15.74,25,17.5,25c0.16,0,0.33,0.01,0.49,0.02 l4.07-6.1C22.02,18.62,22,18.31,22,18c0-4.41,3.59-8,8-8s8,3.59,8,8c0,4.41-3.59,8-8,8c-0.14,0-0.28-0.01-0.42-0.02l-5.65,4.62 c0.04,0.3,0.07,0.59,0.07,0.9c0,3.58-2.92,6.5-6.5,6.5S11,35.08,11,31.5v-0.06l-6.44-2.76C6.66,37.47,14.56,44,24,44 c11.05,0,20-8.95,20-20S35.05,4,24,4z"/></svg>Steam</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
