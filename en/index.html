@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="../script/script.js"></script>
+    <title>Eduardo Santos - Front-end developer</title>
+</head>
+<script>
+    function redirectBasedOnLanguage() {
+        var userLanguage = navigator.language || navigator.userLanguage;
+
+        if (userLanguage.startsWith('pt')) {
+            var confirmPT = confirm("Deseja mudar para a versão em português?");
+            if (confirmPT) {
+                window.location.href = '#';
+            }
+        } else {
+            window.location.href = '';
+        }
+    }
+
+    window.onload = redirectBasedOnLanguage;
+</script>
+<body id="body">
+    <header id="header">
+        <div class="header-logo">
+            <img src="../assets/media/images/profile.png" alt="">
+        </div>
+        <nav>             
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonial</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <nav id="menu" class="menu">             
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonial</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact"><img src="../assets/media/icons/icon-translate.png" alt="Traduzir página"> Traduzir</a></li>
+            </ul>
+        </nav>
+        <div class="header-menu" id="header-menu" onclick="abreMenu()">
+            <img src="../assets/media/icons/icon-menu.png" id="img-header" alt="Menu">
+            <img src="../assets/media/icons/icon-close.png" class="header-fecha" id="header-fecha" width="24px" alt="Menu">
+        </div>
+        <div class="header-translate">
+            <a href="../" target="_blank" id="translate"><img src="../assets/media/icons/icon-translate.png" width="32px" alt="Translate Page"></a>
+        </div>
+    </header>
+    <main>
+        <article class="home" id="home">
+            <div class="art-esq">
+                <h1>I'M <br><strong id="title">Eduardo Santos</strong> 🤝</h1>
+                <p>Front-end Developer</p>
+                <!-- <p>Sou um desenvolvedor Frontend no Brasil, dedicado a dar vida e funcionalidade ao seu site.</p> -->
+                <button><a href="#contact">Contact Me</a></button>               
+            </div>
+            <div class="art-dir">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/dingols/" target="_blank"><img src="../assets/media/icons/icon-linkedin.png" alt="Linkedin"></a></li>
+                    <li><a href="https://www.instagram.com/d1ng0ls/" target="_blank"><img src="../assets/media/icons/icon-instagram.png" alt="Instagram"></a></li>
+                    <li><a href="https://github.com/D1ng0ls" target="_blank"><img src="../assets/media/icons/icon-github.png" alt="Github"></a></li>
+                </ul>
+            </div>
+        </article>
+        <article class="sobre" id="about">
+            <h2 id="title">About</h2>
+            <p>
+                I'm a general assistant at Jadlog Logística, where I perform logistics services in general, and a full stack web developer in training. I'm currently pursuing higher education in Information Technology/Information Systems at the São Paulo Institute of Education, Science, and Technology (IFSP), after completing the integrated technical course in Computing at the same institution.
+                <br><br>
+                My goal is to seek enriching opportunities in the field of computer science and programming, to consolidate and apply the knowledge acquired throughout my education. I have skills in HTML5, CSS, and web development, and I'm committed to constantly improving them. I aim to contribute proactively and effectively in the professional environment, aligning the organization's values with my own.
+             </p>
+        </article>
+        <article class="skills">
+            <h2 id="title">My Skills</h2>
+            <div class="grade-skills">
+                <div class="abilities abilitie1">
+                    <img src="../assets/media/brands/logo-html.png" alt="Icon HTML">
+                    <p>HTML</p>
+                </div>
+                <div class="abilities abilitie2">
+                    <img src="../assets/media/brands/logo-css.png" alt="Icon CSS">
+                    <p>CSS</p>
+                </div>
+                <div class="abilities abilitie3">
+                    <img src="../assets/media/brands/logo-js.png" alt="Icon JavasCRIPT">
+                    <p>JavaScript</p>
+                </div>
+                <div class="abilities abilitie4">
+                    <img src="../assets/media/brands/logo-php.png" alt="Icon PHP">
+                    <p>PHP</p>
+                </div>
+                <div class="abilities abilitie5">
+                    <img src="../assets/media/brands/logo-mysql.png" alt="Icon MySQL">
+                    <p>MySQL</p>
+                </div>
+                <div class="abilities abilitie6">
+                    <img src="../assets/media/brands/logo-git.png" alt="Icon Git Controle de Verções">
+                    <p>Git Source Control</p>
+                </div>
+                <div class="abilities abilitie7">
+                    <img src="../assets/media/brands/logo-cpp.png" alt="Icon C++">
+                    <p>C++</p>
+                </div>
+            </div>
+        </article>
+        <article class="portfolio" id="projects">
+            <h2 id="title">Portfolio</h2>
+            <div class="grid-portfolio">
+                <div class="projects project1">
+                    <h3>Dingol's pages</h3>
+                    <p>Developer landing page.</p>
+                    <button><a href="https://dingolspages.000webhostapp.com/" target="_blank">See More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a></button>
+                </div>
+                <div class="projects project2">
+                    <h3>CursosFodas</h3>
+                    <p>Platform that hosts both programming and general courses, disclosing them to the general public.</p>
+                    <button><a href="https://d1ng0ls.github.io/CursosFodas/" target="_blank">See More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a></button>
+                </div>
+                <div class="projects project3">
+                    <h3>TSI - IFSP</h3>
+                    <p>Rework of the TSI course area of the IFSP website.</p>
+                    <button><a href="https://d1ng0ls.github.io/TSI.IFSP/" target="_blank">See More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a></button>
+                </div>
+                <div class="projects project4">
+                    <h3>Atrações 018</h3>
+                    <p>Landing page of a website that brings together tourist attractions to visit in DDD 018 locations.</p>
+                    <button><a href="https://d1ng0ls.github.io/atracoes018/" target="_blank">See More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a></button>
+                </div>
+            </div>
+            <button><a href="https://github.com/D1ng0ls" target="_blank">View More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a></button>
+        </article>
+        <article class="depoimentos" id="testimonials">
+            <h2 id="title">Testimonial</h2>
+            <div class="testimonials testimonial1">
+                <p>Eduardo is a <span>very creative programmer</span>, has <span>solid knowledge in frontend and backend</span>, during the technical course in computer science he developed an e-commerce that was <span>one of the best works</span> presented that year.</p>
+                <p><strong>Murilo Varges</strong></p>
+                <p>Professor and Researcher at Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP)</p>
+            </div>
+            <div class="testimonials testimonial1">
+                <p>Excellent recommendations, <span>proactive</span>, <span>dedicated</span>, <span>task-focused</span>, seeks to <span>resolve issues</span>, <span>proficient in technologies</span>.</p>
+                <p><strong>Edmar Santos</strong></p>
+                <p>Higher Education Professor | Doctor of Science - Computer Management | Master of Computer Science Higher Education Professor | Doctor of Science - Computer Management | Master of Computer Science</p>
+            </div>
+        </article>
+        <article class="contato" id="contact">
+            <h2 id="title">Contact</h2>
+            <div class="contact">
+                <p><a href="mailto:eduardo.nunes7500@gmail.com" target="_blank"><img src="../assets/media/icons/icon-email.png" alt="Icon Email">eduardo.nunes7500@gmail.com</a></p>
+                <p><a href="https://api.whatsapp.com/send?phone=5518998161382" target="_blank"><img src="../assets/media/icons/icon-whatsapp.png" alt="Icon Whatsapp">Whatsapp</a></p>
+                <p><a href="https://www.linkedin.com/in/dingols/" target="_blank"><img src="../assets/media/icons/icon-linkedin.png" alt="Icon Linkedin">Linkedin</a></li>
+                <p><img src="../assets/media/icons/icon-location.png" alt="Localização">Birigui - SP, Brasil</p>
+                <p><a href="https://www.instagram.com/d1ng0ls/" target="_blank"><img src="../assets/media/icons/icon-instagram.png" alt="Icon Instagram">Instagram</a></li>
+                <p><a href="https://github.com/D1ng0ls" target="_blank"><img src="../assets/media/icons/icon-github.png" alt="Icon Github">Github</a></li>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <h1 id="title">~ Thanks for Scrolling. ~</h1>
+    </footer>
+</body>
+</html>
