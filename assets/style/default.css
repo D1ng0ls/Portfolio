@@ -1,0 +1,21 @@
+:root {
+    --color-darkbg: #31333b;
+    --color-lightbg: #34353a;
+    --color-lightred: #ff6b6b;
+    --color-white: #f9f9f9;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#title {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
