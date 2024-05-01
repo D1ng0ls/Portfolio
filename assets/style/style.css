@@ -310,6 +310,11 @@ nav ul>li:hover a {
     background-size: cover;
 }
 
+.project5 {
+    background: url("../media/projects/tarefasfodas.png") no-repeat center;
+    background-size: cover;
+}
+
 /* Testimonials */
 .depoimentos {
     background-color: var(--color-lightbg);
